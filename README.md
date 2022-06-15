@@ -54,3 +54,4 @@
 | ユーザーログイン | Username, Email , Password を利用したログイン機能     |
 | セキュリティ     | crypto-js で User の Password を暗号化して管理        |
 | カード決済       | Stripe を利用したカード決済                           |
+# -ec-app-typeScript
