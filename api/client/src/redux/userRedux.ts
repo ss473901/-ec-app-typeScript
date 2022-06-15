@@ -1,5 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
+import data from "./userData.json";
+
+type APIDATA = typeof data;
 
 const userSlice = createSlice({
   name: "user",
