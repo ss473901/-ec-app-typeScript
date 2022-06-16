@@ -6,7 +6,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
-import ReactDOM from "react-dom";
 import { PersistGate } from "redux-persist/integration/react";
 
 const container = document.getElementById("root")!;

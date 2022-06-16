@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "inStock(pin)": true,
+      "_id(pin)": "62480bcb9608146a0c72dd35",
+      "title(pin)": "tshirt",
+      "desc(pin)": "test",
+      "img(pin)": "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      "size(pin)": "",
+      "color(pin)": "",
+      "price(pin)": 1000,
+      "createdAt(pin)": "2022-04-02T08:39:39.397Z",
+      "updatedAt(pin)": "2022-04-02T08:39:39.397Z",
+      "__v(pin)": 0,
+      "quantity(pin)": 1
+    },
+    {
+      "inStock(pin)": true,
+      "_id(pin)": "62480bcb9608146a0c72dd35",
+      "title(pin)": "tshirt",
+      "desc(pin)": "test",
+      "img(pin)": "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      "size(pin)": "",
+      "color(pin)": "",
+      "price(pin)": 1000,
+      "createdAt(pin)": "2022-04-02T08:39:39.397Z",
+      "updatedAt(pin)": "2022-04-02T08:39:39.397Z",
+      "__v(pin)": 0,
+      "quantity(pin)": 1
+    }
+  ],
+  "quantity": 1,
+  "total": 1000
+}

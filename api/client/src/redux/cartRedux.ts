@@ -1,4 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
+import data from "./cartData.json";
+
+type APIDATA = typeof data;
 
 const cartSlice = createSlice({
   name: "cart",

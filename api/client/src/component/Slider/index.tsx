@@ -5,7 +5,7 @@ import ArrowLeftOutlinedIcon from "@mui/icons-material/ArrowLeftOutlined";
 import { useState } from "react";
 import { sliderItems } from "../../date";
 
-export const Slider = () => {
+export const Slider: React.FC = () => {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const handleClick = (direction) => {

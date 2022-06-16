@@ -7,7 +7,7 @@ import { logout } from "../../redux/userRedux";
 import { useState } from "react";
 import { persistor } from "../../redux/store";
 
-export const Navbar = () => {
+export const Navbar: React.FC = () => {
   const quantity = useSelector((state) => state.cart.quantity);
   const dispatch = useDispatch();
 

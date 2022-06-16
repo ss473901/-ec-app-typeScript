@@ -1,6 +1,7 @@
 import * as Styled from "./style";
 import { Link } from "react-router-dom";
 
+
 export const CategoryItem = ({ item }) => {
   return (
     <Styled.Container>

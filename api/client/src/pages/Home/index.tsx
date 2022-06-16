@@ -4,7 +4,7 @@ import { Navbar } from "../../component/Navbar";
 import { Products } from "../../component/Products";
 import { Slider } from "../../component/Slider";
 
-export const Home = () => {
+export const Home: React.FC = () => {
   return (
     <div>
       <Announcement />

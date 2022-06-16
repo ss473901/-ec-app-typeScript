@@ -7,10 +7,10 @@ import { Login } from "./pages/Login";
 import { Success } from "./pages/Success";
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useAppSelector } from "./redux/hooks";
 
 function App() {
-  const user = useSelector((state) => state.user.currentUser);
+  const user = useAppSelector((state) => state.user.currentUser);
   return (
     <BrowserRouter>
       <Routes>
