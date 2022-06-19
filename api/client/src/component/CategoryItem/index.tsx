@@ -1,8 +1,16 @@
 import * as Styled from "./style";
 import { Link } from "react-router-dom";
 
+interface ItemProps {
+  item: {
+    id: number;
+    img: string;
+    title: string;
+    cat: string;
+  };
+}
 
-export const CategoryItem = ({ item }) => {
+export const CategoryItem: React.FC<ItemProps> = ({ item }) => {
   return (
     <Styled.Container>
       <Link to={`/products/${item.cat}`}>
